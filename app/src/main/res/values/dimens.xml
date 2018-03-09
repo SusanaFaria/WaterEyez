@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--buttons-->
+    <dimen name="btnPadding">0dp</dimen>
+    <dimen name="btnWidth">160dp</dimen>
+    <dimen name="btnHeight">48dp</dimen>
+    <dimen name="btn2_margTop">24dp</dimen>
+
+    <!--activity 1-->
+    <dimen name="txtPadding">20dp</dimen>
+    <dimen name="txtSize">24sp</dimen>
+    <dimen name="img_height">160dp</dimen>
+    <dimen name="img_marg">24dp</dimen>
+    <!--activity 2 images-->
+    <dimen name="img1Size">150dp</dimen>
+    <dimen name="imgs_margin_top">20dp</dimen>
+    <dimen name="imgsWidth">200dp</dimen>
+    <dimen name="imgsHeight">120dp</dimen>
+    <dimen name="imgsMargBottom">8dp</dimen>
+
+    <!--activity 2 qstHeaders-->
+    <dimen name="txts_margin_top">24dp</dimen>
+    <dimen name="txt_padding">20dp</dimen>
+    <dimen name="txt_size">24sp</dimen>
+
+    <!--activity 2 RadioGroups-->
+    <dimen name="RadioGroup_Padding">20dp</dimen>
+
+    <!--activity 2 RadioButtons-->
+    <dimen name="RadioButton_Padding">8dp</dimen>
+    <dimen name="RadioButton_PaddingBottom">4dp</dimen>
+    <dimen name="RadioButton_MargRight">24dp</dimen>
+    <dimen name="RadioButton_txtSize">24sp</dimen>
+
+    <!--activity 2 CheckBoxes-->
+    <dimen name="CheckBox_PaddingLeft">8dp</dimen>
+    <dimen name="CheckBox_marg">24dp</dimen>
+    <dimen name="CheckBoz_txtSize">24dp</dimen>
+
+    <!--activity 2 EditText-->
+    <dimen name="EditTxt_marg_padd_Top">16dp</dimen>
+    <dimen name="EditTxt_marg">24dp</dimen>
+    <dimen name="EditTxt_size">20sp</dimen>
+    <dimen name="EditTxt_padding">30dp</dimen>
+
+
+</resources>

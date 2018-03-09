@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    tools:context="com.example.android.watereyez.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn1" />
+
+        <ImageView
+            android:layout_width="@dimen/img1Size"
+            android:layout_height="@dimen/img1Size"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/imgs_margin_top"
+            android:scaleType="fitStart"
+            android:src="@drawable/earth" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a1.1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a1.2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A1_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a1.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn2" />
+
+
+        <ImageView
+            style="@style/imgStyle"
+            android:src="@drawable/wtrcycle" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A2_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a2.1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A2_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a2.2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A2_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a2.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn3" />
+
+        <ImageView
+            style="@style/imgStyle"
+            android:src="@drawable/forest_rain" />
+
+        <CheckBox
+            android:id="@+id/A3_1"
+            style="@style/checkBoxStyle"
+            android:text="@string/a3.1"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A3_2"
+            style="@style/checkBoxStyle"
+            android:text="@string/a3.2"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A3_3"
+            style="@style/checkBoxStyle"
+            android:text="@string/a3.3"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A3_4"
+            style="@style/checkBoxStyle"
+            android:text="@string/a3.4"
+            android:theme="@style/checkBoxColor" />
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn4" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="87dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitStart"
+                android:src="@drawable/humanbody" />
+
+            <RadioGroup style="@style/RadioGroupStyle">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/A4_2"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/a4.2" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/A4_3"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/a4.3" />
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/A4_1"
+                    style="@style/RadioButtonStyle"
+                    android:text="@string/a4.1" />
+
+            </RadioGroup>
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn5" />
+
+        <ImageView
+            style="@style/imgStyle"
+            android:scaleType="fitXY"
+            android:src="@drawable/cells" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A5_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a5.1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A5_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a5.2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A5_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a5.3" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A5_4"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a5.4" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn6" />
+
+        <ImageView
+            style="@style/imgStyle"
+            android:src="@drawable/molecular_structure" />
+
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/waterFormula"
+            style="@style/editTextStyle"
+            android:hint="@string/a6hint"
+            android:imeOptions="actionDone"
+            android:inputType="textCapCharacters"
+            android:maxLength="20"
+            android:textColorHint="@color/editTxt_hint"
+            app:backgroundTint="@color/colorAccent" />
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn7" />
+
+        <ImageView
+            style="@style/imgStyle"
+            android:src="@drawable/sa_water_ration" />
+
+        <RadioGroup style="@style/RadioGroupStyle">
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A7_1"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a7.1" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A7_2"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a7.2" />
+
+            <android.support.v7.widget.AppCompatRadioButton
+                android:id="@+id/A7_3"
+                style="@style/RadioButtonStyle"
+                android:text="@string/a7.3" />
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/QuestionHeader"
+            android:text="@string/qtn8" />
+
+        <ImageView
+            style="@style/imgStyle"
+            android:src="@drawable/water_tap" />
+
+        <CheckBox
+            android:id="@+id/A8_1"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.1"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A8_2"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.2"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A8_3"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.3"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A8_4"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.4"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A8_5"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.5"
+            android:theme="@style/checkBoxColor" />
+
+        <CheckBox
+            android:id="@+id/A8_6"
+            style="@style/checkBoxStyle"
+            android:text="@string/a8.6"
+            android:theme="@style/checkBoxColor" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/btn2_margTop"
+            android:background="@drawable/buttonstate"
+            android:text="@string/btn2" />
+
+    </LinearLayout>
+
+</ScrollView>
+

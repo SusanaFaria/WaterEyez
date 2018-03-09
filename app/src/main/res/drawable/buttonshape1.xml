@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="14dp" />
+    <solid android:color="@color/btnPressed" />
+    <padding
+        android:bottom="@dimen/btnPadding"
+        android:left="@dimen/btnPadding"
+        android:right="@dimen/btnPadding"
+        android:top="@dimen/btnPadding" />
+    <size
+        android:width="@dimen/btnWidth"
+        android:height="@dimen/btnHeight" />
+
+</shape>

@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">"                    " WaterEyez</string>
+    <string name="txt1">Do you know how important Water is?</string>
+    <string name="txt2">This is serious business. \n Try the quiz and see!</string>
+
+    <string name="qtn1">What is the average percentage of fresh water available on Earth?</string>
+    <string name="qtn2">What is the water cycle?</string>
+    <string name="qtn3">Which of these processes are part of the water cycle?</string>
+    <string name="qtn4">What is the average percentage of water in the human body?</string>
+    <string name="qtn5">Which of these is not a function of water in our body?</string>
+    <string name="qtn6">Please write the chemical formula of water</string>
+    <string name="qtn7">Which African country is running out of water on April 2018 due to severe drought and is already rationing water supplies?</string>
+    <string name="qtn8">What can each one of us do to save water everyday?</string>
+
+    <string name="a1.1">95%</string>
+    <string name="a1.2">63%</string>
+    <string name="a1.3">2.5%</string>
+
+    <string name="a2.1">Water running in circles</string>
+    <string name="a2.2">The constant flow of water in nature</string>
+    <string name="a2.3">The water you consume and eliminate</string>
+
+    <string name="a3.1">Precipitation</string>
+    <string name="a3.2">Infiltration</string>
+    <string name="a3.3">Evaporation</string>
+    <string name="a3.4">Decantation</string>
+
+    <string name="a4.1">65–75%</string>
+    <string name="a4.2">30–35%</string>
+    <string name="a4.3">50–55%</string>
+
+    <string name="a5.1">Transport of nutrients to cells</string>
+    <string name="a5.2">Elimination of toxins and waste</string>
+    <string name="a5.3">Enzymatic reactions</string>
+    <string name="a5.4">Regulate body temperature</string>
+
+    <string name="a6hint">Water formula</string>
+    <string name="a6">H2O</string>
+    <string name="a7.1">Angola</string>
+    <string name="a7.2">South Africa</string>
+    <string name="a7.3">Morocco</string>
+
+    <string name="a8.1">Turn off the tap when brushing your teeth</string>
+    <string name="a8.2">Water your garden with a hose pipe at noon</string>
+    <string name="a8.3">Reduce the volume of water in the toilet cistern</string>
+    <string name="a8.4">Use your dishwasher with half loads</string>
+    <string name="a8.5">Take short showers</string>
+    <string name="a8.6">Water your plants early in the morning</string>
+
+    <string name="btn1">go</string>
+    <string name="btn2">get your score</string>
+    <string name="btn3">Restart</string>
+
+    <string name="lowScore">Please, read more about the importance of water</string>
+    <string name="midScore">You are on a good path, but you still need to learn more</string>
+    <string name="highScore">You are a real water saver, and very concerned about our future. Know that we can still change things and make this world a better place</string>
+
+    <string name="finalToast">Glad to know that you care!</string>
+
+    <string name="toastMsgPart1">You got</string>
+    <string name="toastMsgPart2">points out of 130</string>
+
+</resources>
+
+

@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="QuestionHeader">
+        <item name="android:centerX">65%</item>
+        <item name="android:background">@drawable/qstheader</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginTop">@dimen/txts_margin_top</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">@dimen/txt_padding</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/txt_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="RadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/RadioButton_Padding</item>
+        <item name="android:paddingLeft">@dimen/RadioButton_Padding</item>
+        <item name="android:paddingBottom">@dimen/RadioButton_PaddingBottom</item>
+        <item name="android:layout_marginRight">@dimen/RadioButton_MargRight</item>
+        <item name="android:buttonTint">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorPrimary</item>_
+        <item name="android:textSize">@dimen/RadioButton_txtSize</item>
+    </style>
+
+    <style name="RadioGroupStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/RadioGroup_Padding</item>
+    </style>
+
+    <style name="checkBoxColor" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorSecondary">@color/colorPrimary</item>
+    </style>
+
+    <style name="checkBoxStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">@dimen/CheckBox_PaddingLeft</item>
+        <item name="android:paddingStart">@dimen/CheckBox_PaddingLeft</item>
+        <item name="android:layout_marginLeft">@dimen/CheckBox_marg</item>
+        <item name="android:layout_marginStart">@dimen/CheckBox_marg</item>
+        <item name="android:layout_marginRight">@dimen/CheckBox_marg</item>
+        <item name="android:layout_marginEnd">@dimen/CheckBox_marg</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/CheckBoz_txtSize</item>
+    </style>
+
+    <style name="imgStyle">
+        <item name="android:layout_width">@dimen/imgsWidth</item>
+        <item name="android:layout_height">@dimen/imgsHeight</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_marginBottom">@dimen/imgsMargBottom</item>
+        <item name="android:layout_marginTop">@dimen/imgs_margin_top</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">@dimen/EditTxt_marg_padd_Top</item>
+        <item name="android:layout_marginLeft">@dimen/EditTxt_marg</item>
+        <item name="android:layout_marginRight">@dimen/EditTxt_marg</item>
+        <item name="android:paddingLeft">@dimen/EditTxt_padding</item>
+        <item name="android:paddingStart">@dimen/EditTxt_padding</item>
+        <item name="android:paddingTop">@dimen/EditTxt_marg_padd_Top</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/EditTxt_size</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00B8D4</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="btnStart">#18FFFF</color>
+    <color name="btnCenter">#00E5FF</color>
+    <color name="btnEnd">#00ACC1</color>
+    <color name="btnPressed">#0097A7</color>
+
+    <color name="editTxt_hint">#84FFFF</color>
+
+</resources>
